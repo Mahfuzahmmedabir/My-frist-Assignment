@@ -217,16 +217,20 @@ body {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+   
 }
+ 
+ 
 .support-div {
   line-height: 30px;
+  background-image: rgba(0, 0, 0, 0.2);
 
 }
 .suppoer-title {
   text-align: center;
   font-size: 40px;
   color: #ddd;
-    /* margin-top: 50px; */
+
 }
 .support-decsription {
   color: #ddd;
@@ -253,6 +257,39 @@ input[type='submit'] {
   background: rgb(255, 255, 255);
   font-weight: 700;
   font-family: 'Azeret Mono', monospace;
+}
+
+footer{
+  background-color: #ddd;
+  margin: 0 auto;
+  margin-top: 100px;
+  height: 100px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
 
 
+}
+.heading{
+  font-family: 'Azeret Mono', monospace;
+  font-size: 20px;
+  color: rgb(13, 19, 33);
+  
+}
+.fontawsome-icon{
+  font-size: 35px;
+  
+}
+i{
+  padding-left: 20px;
+}
+.facebook{
+  color: #1877F2;
+}
+.github{
+  color: #24292e;
+}
+.linkdein{
+  color: #0077B5;
+ 
 }
