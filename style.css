@@ -13,10 +13,6 @@ body {
   margin: 0 auto; */
 }
 /* variable */
-.font-size {
-  font-size: 16px;
-}
-
 
 /* start header section */
 .main-container {
@@ -130,32 +126,133 @@ body {
 }
 /* My inspiration section start */
 
-.inspiration-section{
+.inspiration-section {
   text-align: center;
   margin: 0 auto;
   margin-top: 100px;
 }
 
-
-.inspiration-title{
+.inspiration-title {
   font-size: 40px;
   margin-bottom: 50px;
 }
 
-.inspiration-description{
-  font-size:20px;
-   font-family: 'Azeret Mono', monospace;
-    font-weight: 600;
+.inspiration-description {
+  font-size: 20px;
+  font-family: 'Azeret Mono', monospace;
+  font-weight: 600;
   color: rgb(13, 19, 33);
 }
-.ifrem-section{
+.ifrem-section {
   margin: 0 auto;
-  
- 
-
 }
 
-.inspiration-iframe{
+.inspiration-iframe {
   margin-top: 100px;
   border-radius: 10px;
+}
+
+/* Current Target section start */
+.bg-color1 {
+  background: rgba(255, 76, 30, 0.05);
+}
+.bg-color2 {
+  background: rgba(0, 76, 232, 0.05);
+}
+.bg-color3 {
+  background: rgba(255, 223, 0, 0.05);
+}
+
+.current-Target {
+  max-width: 1140px;
+  margin: 0 auto;
+  margin-top: 50px;
+}
+.top-section {
+  text-align: center;
+  margin-bottom: 100px;
+}
+.target-title {
+  font-family: 'Azeret Mono', monospace;
+  font-size: 40px;
+  margin-top: 100px;
+  margin-bottom: 25px;
+}
+.current-title {
+  padding-bottom: 20px;
+  margin-top: 20px;
+}
+.current-description {
+  font-family: 'Azeret Mono', monospace;
+  color: rgb(13, 19, 33);
+  padding-bottom: 30px;
+}
+.main-div1 {
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+}
+.frist-div {
+  width: 360px;
+  height: 260px;
+  padding: 40px;
+  margin-top: -50px;
+  border-radius: 15px;
+}
+.learn-more-btn {
+  font-size: 18px;
+  font-family: 'Azeret Mono', monospace;
+  color: rgb(13, 19, 33);
+}
+/* support section */
+.support-section {
+  max-width: 1150px;
+  height: 320px;
+  margin: 0 auto;
+  margin-top: 50px;
+  border-radius: 16px;
+  display: flex;
+  background-image: url(assets/handshake.jpg);
+  background-position: center;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.support-div {
+  line-height: 30px;
+
+}
+.suppoer-title {
+  text-align: center;
+  font-size: 40px;
+  color: #ddd;
+    /* margin-top: 50px; */
+}
+.support-decsription {
+  color: #ddd;
+  font-size: 18px;
+  text-align: center;
+}
+input[type='search'] {
+  width: 600px;
+  margin-top: 40px;
+  padding: 20px;
+  font-size: 16px;
+  border-radius: 15px;
+  color: rgba(13, 19, 33, 0.4);
+  border: none;
+}
+input[type='submit'] {
+  padding: 20px;
+   margin-top: 40px;
+  font-size: 18px;
+  border-radius: 15px 10px;
+  margin-left: 10px;
+  border: none;
+  border-radius: 8px;
+  background: rgb(255, 255, 255);
+  font-weight: 700;
+  font-family: 'Azeret Mono', monospace;
+
+
 }
