@@ -9,8 +9,8 @@
   padding: 0;
 }
 body {
-  /* max-width: 1450px;
-  margin: 0 auto; */
+   max-width: 1450px;
+  margin: 0 auto; 
 }
 /* variable */
 
@@ -145,6 +145,8 @@ body {
 }
 .ifrem-section {
   margin: 0 auto;
+  border-radius: 16px;
+  margin-top: 100px;
 }
 
 .inspiration-iframe {
