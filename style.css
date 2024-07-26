@@ -130,18 +130,15 @@ body {
   font-weight: 600;
 }
 /* My inspiration section start */
-
 .inspiration-section {
   text-align: center;
   margin: 0 auto;
   margin-top: 100px;
 }
-
 .inspiration-title {
   font-size: 40px;
   margin-bottom: 30px;
 }
-
 .inspiration-description {
   font-size: 20px;
   width: 900px;
@@ -155,12 +152,10 @@ body {
   border-radius: 16px;
   margin-top: 100px;
 }
-
 .inspiration-iframe {
   position: relative;
   margin-top: 100px;
 }
-
 /* Current Target section start */
 .bg-color1 {
   background: rgba(255, 76, 30, 0.05);
@@ -171,7 +166,6 @@ body {
 .bg-color3 {
   background: rgba(255, 223, 0, 0.05);
 }
-
 .current-Target {
   max-width: 1140px;
   margin: 0 auto;
@@ -264,7 +258,6 @@ input[type='submit'] {
   font-weight: 700;
   font-family: 'Azeret Mono', monospace;
 }
-
 footer {
   background-color: #ddd;
   margin: 0 auto;
@@ -301,7 +294,6 @@ i {
 /* responsive design  */
 
 @media screen and (max-width: 576px) {
-
   /* .main-container{
    
     /* height: 880px; 
@@ -310,5 +302,89 @@ i {
   .container-title {
     font-size: 2rem;
   }
-  
+
+  .section-informetion {
+    margin-top: 200px;
+  }
+
+  .child-content {
+    padding-top: 100px;
+  }
+  .parent-section {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .parent-section-title {
+    width: 100%;
+    font-size: 1.5rem;
+  }
+  .parent-section-description {
+    width: 100%;
+  }
+  .chaild {
+    width: 350px;
+    margin: 0 auto;
+    margin-top: -100px;
+  }
+  .column-reverse {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+
+  /* inspiration section statr */
+
+  .inspiration-description {
+    font-weight: 200;
+    width: 100%;
+  }
+  iframe {
+    width: 100%;
+  }
+  /* Current Target section start  */
+
+  .main-div1 {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    flex-direction: column;
+    width: 100%;
+  }
+  .frist-div{
+    width: 78%;
+    border-radius: 1px;
+    
+  }
+  /* support section start */
+  .support-div{
+    width: 100%;
+  }
+
+  /* .suppoer-title{
+    padding-top: 100px;
+  } */
+  input[type='search']{
+     width: 300px;
+    display: block;
+  }
+  input[type='submit']{
+      margin-left: 100px;
+      cursor: pointer;
+      margin-top: 10px;
+  }
+  .support-section {
+ border-bottom-left-radius: 1px;
+ border-bottom-right-radius: 1px;
+  }
+
+  footer{
+    flex-direction: column;
+    margin-top: 50px;
+      height: 150px;
+  }
+  .heading{
+    text-align: center;
+    padding-top: 20px;
+    font-size: 1.2rem;
+  }
 }
